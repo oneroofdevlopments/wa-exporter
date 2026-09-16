@@ -1,0 +1,5 @@
+Contact: https://github.com/oneroofdevlopments/wa-exporter/issues
+Expires: 2027-09-16T00:00:00Z
+Preferred-Languages: en
+Canonical: https://waexporter.in/.well-known/security.txt
+Policy: https://waexporter.in/privacy.html

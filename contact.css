@@ -1,0 +1,21 @@
+.contact-hero{padding:80px 0 52px;background:radial-gradient(circle at 82% 0,rgba(37,211,102,.13),transparent 35%)}
+.contact-hero h1{font-size:clamp(40px,6vw,67px);line-height:1.08;max-width:850px}
+.contact-hero .lead{max-width:850px}.contact-muted{max-width:850px;color:#afc6b5}
+.contact-section{padding:62px 0}.contact-section h2{font-size:clamp(28px,4vw,43px);line-height:1.13;letter-spacing:-.035em;margin:8px 0 14px}
+.contact-section .section-intro{color:#afc6b5;max-width:800px;margin-bottom:25px}
+.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.contact-card,.privacy-panel{background:linear-gradient(155deg,#102117,#0a150e);border:1px solid #294936;border-radius:21px;padding:26px;min-width:0}
+.contact-card.featured{border-color:#50c479;box-shadow:0 20px 46px rgba(10,64,32,.15)}
+.contact-card h3{font-size:22px;line-height:1.2;letter-spacing:-.025em;margin:13px 0}
+.contact-card p,.contact-two p,.contact-list,.contact-faq p{color:#bad0c1}
+.contact-card .btn{margin:16px 0 4px;text-align:center;max-width:100%;overflow-wrap:anywhere}
+.contact-card .contact-small{font-size:13px;color:#9eb9a6;line-height:1.55}
+.contact-tag{display:inline-block;border-radius:99px;border:1px solid #295a3b;color:#aef3ba;background:#15341f;padding:5px 11px;font-size:12px;font-weight:750}
+.contact-alt{background:linear-gradient(180deg,rgba(255,255,255,.026),transparent)}
+.contact-two{display:grid;grid-template-columns:1.2fr .8fr;gap:38px;align-items:start}
+.contact-list{padding-left:22px}.contact-list li{margin:12px 0}
+.privacy-panel h3{font-size:23px;margin:0}.privacy-panel a,.contact-faq a{color:#8bf4ae;text-decoration:underline;text-underline-offset:3px}
+.contact-faq{max-width:910px}.contact-faq details{border:1px solid #284635;border-radius:16px;background:#0c1b12;padding:18px 21px;margin:13px 0}
+.contact-faq summary{font-size:17px;font-weight:780;cursor:pointer}.contact-faq details p{margin:13px 0 0}
+.footer a:hover,.privacy-panel a:hover,.contact-faq a:hover{text-decoration:underline}
+@media(max-width:860px){.contact-grid{grid-template-columns:1fr}.contact-two{grid-template-columns:1fr}.contact-hero{padding:48px 0 30px}.contact-section{padding:46px 0}}
